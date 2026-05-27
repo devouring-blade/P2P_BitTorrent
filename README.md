@@ -1,4 +1,5 @@
 # P2P BitTorrent — Đồ án Hệ thống Phân tán
+link báo cáo đầy đủ: https://docs.google.com/document/d/1a0QD_tfUlIEj1X4PmZvncLDfZbcKC5XU/edit?usp=drive_link&ouid=115861918359149872828&rtpof=true&sd=true
 
 ## Cấu trúc project
 ```
