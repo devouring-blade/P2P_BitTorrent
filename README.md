@@ -51,14 +51,12 @@ python main_tracker.py --port 6969
 
 ### 3. Chạy Seeder (Terminal 2)
 ```bash
-python main_peer.py seed --id peer1 --port 7001 \
-  --file video.mp4 --torrent video.mp4.torrent
+python main_peer.py seed --id peer1 --port 7001 --file video.mp4 --torrent video.mp4.torrent
 ```
 
 ### 4. Chạy Leecher (Terminal 3)
 ```bash
-python main_peer.py download --id peer2 --port 7002 \
-  --torrent video.mp4.torrent
+python main_peer.py download --id peer2 --port 7002 --torrent video.mp4.torrent
 ```
 
 ### 5. Web Dashboard
@@ -74,8 +72,8 @@ python simulate_peers.py
 
 ### 7. chạy mô phỏng xử lý song song (scenario 1) và xử lý peer ngắt giữa chừng (scenario 2)
 ```bash
-python demo_advance.py --scenario 1
-python demo_advance.py --scenario 2
+python demo_advanced.py --scenario 1
+python demo_advanced.py --scenario 2
 ```
 
 ## Tính năng
