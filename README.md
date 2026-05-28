@@ -1,6 +1,4 @@
 # P2P BitTorrent — Đồ án Hệ thống Phân tán
-link báo cáo đầy đủ: https://docs.google.com/document/d/1a0QD_tfUlIEj1X4PmZvncLDfZbcKC5XU/edit?usp=drive_link&ouid=115861918359149872828&rtpof=true&sd=true
-
 ## Cấu trúc project
 ```
 p2p_torrent/
@@ -74,13 +72,10 @@ python web/dashboard.py
 python simulate_peers.py
 ```
 
-### 7. Chạy tất cả tests
+### 7. chạy mô phỏng xử lý song song (scenario 1) và xử lý peer ngắt giữa chừng (scenario 2)
 ```bash
-python -m tests.test_module1
-python -m tests.test_module2
-python -m tests.test_module3
-python -m tests.test_module4
-python -m tests.test_module5
+python demo_advance.py --scenario 1
+python demo_advance.py --scenario 2
 ```
 
 ## Tính năng
